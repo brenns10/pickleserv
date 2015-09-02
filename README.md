@@ -21,7 +21,7 @@ In the second one (sending client), do:
 
 ```python
 import pickleserv
-pickleserv.send([some object here], 'your name here')
+pickleserv.send(some_object_here, 'your name here')
 ```
 
 In the third one (receiving client), do:
